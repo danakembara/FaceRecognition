@@ -52,7 +52,7 @@ Performance at the best epoch:
 Future improvements:
 * Increase dataset size (currently 1414 train and 354 test images) using additional data from the CelebA dataset
 * Experiment with augmentation methods tailored specifically for gender classification
-* Split dataset into train, validation, and test sets for better hyperparameter tuning and model-specific fine-tuning
+* Split dataset into train, validation, and test sets for model-specic hyperparameter tuning
 * Explore alternative transfer learning techniques, such as freezing weights in different layers
 * Investigate using smaller variants of VGG (e.g., VGG11 or VGG13) to improve accuracy and reduce training time
 
