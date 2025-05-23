@@ -44,6 +44,9 @@ python evaluate.py
 ```
 
 ## 📈 Results
+Visualize augmented images:
+![Augmented Images](img_aug.png)
+
 Performance at the best epoch:
 | Model     | Train Accuracy (%) | Training Time (s) | Test Accuracy (%) |
 |-----------|--------------------|-------------------|-------------------|
