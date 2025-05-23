@@ -23,8 +23,11 @@ Expected folder structure:
   face_recognition/ 
   ├── dataset/ 
   │   ├── images/
-  │   └── labels/ 
+  │   |   └── images.jpg
+  │   └── labels/
+  |       └── labels.txt
   ├── weights/
+  |   └── weights_best.pth
   ├── models.py 
   ├── utils.py 
   ├── train.py 
