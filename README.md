@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## 📂 Dataset Structure
 Expected folder structure:
-<pre> ```text 
+<pre>
   face_recognition/ 
   ├── dataset/ 
   │   ├── images/ 
@@ -31,7 +31,7 @@ Expected folder structure:
   ├── train.py 
   ├── test.py 
   └── requirements.txt 
-  ``` </pre>
+</pre>
 
 ## 🏃 Usage
 ```bash
