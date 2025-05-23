@@ -21,7 +21,11 @@ pip install -r requirements.txt
 ## 📂 Dataset Structure
 Expected folder structure:
 <pre> 
-  ```text face_recognition/ ├── dataset/ │ ├── images/ │ └── labels/ │ └── list_attribute.txt 
+  ```text face_recognition/ 
+  ├── dataset/ 
+  │   ├── images/ 
+  │   └── labels/ 
+  │       └── list_attribute.txt 
   ├── models.py 
   ├── utils.py 
   ├── train.py 
