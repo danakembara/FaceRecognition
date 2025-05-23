@@ -24,14 +24,12 @@ Expected folder structure:
   face_recognition/ 
   ├── dataset/ 
   │   ├── images/
-  |   |   └── images.jpg
   │   └── labels/ 
-  │       └── label.txt
   ├── weights/
   ├── models.py 
   ├── utils.py 
   ├── train.py 
-  ├── eval.py 
+  ├── evaluate.py 
   └── requirements.txt
 </pre>
 
@@ -41,12 +39,10 @@ Expected folder structure:
 python train.py
 
 # Evaluate the models
-python test.py
+python evaluate.py
 ```
 
 ## 📈 Results
-Example of augmented images
-
 
 Performance:
 
