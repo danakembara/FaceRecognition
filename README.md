@@ -1,4 +1,4 @@
-# Face Recognition
+# Gender Classification
 A PyTorch-based project that trains multiple CNN architectures to classify gender (Male/Female) from facial images.
 
 ## 🧠 Features
@@ -13,8 +13,32 @@ A PyTorch-based project that trains multiple CNN architectures to classify gende
 # Clone the repository
 git clone https://github.com/your-username/face-gender-classification.git
 cd face-gender-classification
-```
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+## 📂 Dataset Structure
+Expected folder structure:
+face_recognition/
+├── dataset/
+│   ├── images/
+│   └── labels/
+│       ├── list_attribute.txt
+├── models.py
+├── utils.py
+├── train.py
+├── test.py
+└── requirements.txt
+
+## 🏃 Usage
+```bash
+# Train the models
+python train.py
+
+Evaluate the models
+python test.py
+```
+
+
 
