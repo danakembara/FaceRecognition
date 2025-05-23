@@ -14,7 +14,7 @@ from utils import (
 
 
 if __name__ == "__main__":
-    root = 'C:/Users/kemba/OneDrive/Desktop/Bootcamp/project/face_recognition/'
+    root = '..../face_recognition/'
 
     # Visualize dataset
     dataset_vis = FaceRecognitionDataset(root, is_train=False, transforms=NoTransform())
