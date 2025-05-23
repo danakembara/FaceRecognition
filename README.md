@@ -43,11 +43,11 @@ python evaluate.py
 
 ## 📈 Results
 Performance at the best epoch:
-| Model     | Train Accuracy(%) | Training Time(s) | Test Accuracy(%) |
-|-----------|-------------------|------------------|------------------|
-| ResNet18  | 97.88             | 399.08           | 95.76            | 
-| VGG16     | 79.92             | 2522.19          | 78.53            |
-| GoogleNet | 98.66             | 487.6            | 94.92            |
+| Model     | Train Accuracy (%) | Training Time (s) | Test Accuracy (%) |
+|-----------|--------------------|-------------------|-------------------|
+| ResNet18  | 97.88              | 399.08            | 95.76             | 
+| VGG16     | 79.92              | 2522.19           | 78.53             |
+| GoogleNet | 98.66              | 487.6             | 94.92             |
 
 Future improvements:
 * Increase dataset size (currently 1414 train and 354 test images) using additional data from the CelebA dataset
