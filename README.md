@@ -24,15 +24,15 @@ Expected folder structure:
   face_recognition/ 
   ├── dataset/ 
   │   ├── images/
-  |   |   └── 000051.jpg
-  |   |   └── ....
+  |   |   └── images.jpg
   │   └── labels/ 
-  │       └── list_attribute.txt 
+  │       └── label.txt
+  ├── weights/
   ├── models.py 
   ├── utils.py 
   ├── train.py 
-  ├── test.py 
-  └── requirements.txt 
+  ├── eval.py 
+  └── requirements.txt
 </pre>
 
 ## 🏃 Usage
@@ -45,10 +45,14 @@ python test.py
 ```
 
 ## 📈 Results
+Example of augmented images
 
-| Model          | Train Accuracy(%) | Training Time (s) | Test Accuracy(%) |
-|----------------|-------------------|-------------------|------------------|
-| ResNet18       | 97.88             | 399.08            | 95.76            | 
-| VGG16          | 79.92             | 2522.19           | 78.53            |
-| GoogleNet      | 98.66             | 487.6             | 94.92            |
+
+Performance:
+
+| Model     | Train Accuracy(%) | Training Time (s) | Test Accuracy(%) |
+|-----------|-------------------|-------------------|------------------|
+| ResNet18  | 97.88             | 399.08            | 95.76            | 
+| VGG16     | 79.92             | 2522.19           | 78.53            |
+| GoogleNet | 98.66             | 487.6             | 94.92            |
 
