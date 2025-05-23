@@ -22,11 +22,11 @@ pip install -r requirements.txt
   face_recognition/ 
   ├── dataset/ 
   │   ├── images/
-  │   |   └── images.jpg
+  │   │   └── images.jpg
   │   └── labels/
-  |       └── labels.txt
+  │       └── labels.txt
   ├── weights/
-  |   └── weights_best.pth
+  │   └── weights_best.pth
   ├── models.py 
   ├── utils.py 
   ├── train.py 
@@ -51,7 +51,7 @@ Performance at the best epoch:
 | VGG16     | 79.92              | 2522.19           | 78.53             |
 | GoogleNet | 98.66              | 487.6             | 94.92             |
 
-## 🚀 Future improvements:
+## 🚀 Future Improvements
 * Increase dataset size (currently 1414 train and 354 test images) using additional data from the CelebA dataset
 * Experiment with augmentation methods tailored specifically for gender classification
 * Split dataset into train, validation, and test sets for model-specic hyperparameter tuning
