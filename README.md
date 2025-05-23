@@ -42,5 +42,10 @@ python train.py
 python test.py
 ```
 
-
+## 📈 Results
+| Model          | Accuracy (%)   | Training time (s) |
+|----------------|----------------|-------------------|
+| ResNet18       | Row 1, Cell 2  | Row 1, Cell 3     |
+| VGG16          | Row 2, Cell 2  | Row 2, Cell 3     |
+| GoogleNet      | Row 2, Cell 2  | Row 2, Cell 3     |
 
