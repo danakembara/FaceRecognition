@@ -10,8 +10,8 @@ A PyTorch-based project that trains multiple CNN architectures to classify gende
 ## 📦 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/danakembara/face_recognition.git
-cd face_recognition
+git clone https://github.com/danakembara/face-recognition.git
+cd face-recognition
 
 # Install dependencies
 pip install -r requirements.txt
