@@ -36,7 +36,7 @@ face_recognition/
 # Train the models
 python train.py
 
-Evaluate the models
+# Evaluate the models
 python test.py
 ```
 
