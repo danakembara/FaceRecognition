@@ -18,7 +18,14 @@ if __name__ == "__main__":
 
     # Visualize dataset
     dataset_vis = FaceRecognitionDataset(root, is_train=False, transforms=NoTransform())
+    
+    # # Investigate the number of images in dataset
+    # train_dataset = FaceRecognitionDataset(root, is_train=True)
+    # test_dataset = FaceRecognitionDataset(root, is_train=False)
+    # print(f"Number of training images: {len(train_dataset)}")
+    # print(f"Number of testing images: {len(test_dataset)}")
 
+    # # Visualize dataset
     # visualize_dataset(dataset_vis, num_samples=5, randomize=True) 
 
     # # Visualize augmented dataset
