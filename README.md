@@ -18,7 +18,6 @@ pip install -r requirements.txt
 ```
 
 ## 📂 Dataset Structure
-Expected folder structure:
 <pre>
   face_recognition/ 
   ├── dataset/ 
