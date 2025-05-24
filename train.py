@@ -33,12 +33,14 @@ if __name__ == "__main__":
 
     # Hyperparameter
     batch_size = 32
-    num_epochs = 10
+    num_epochs = 30
     learning_rate = 0.001
 
     # Train
     train_loader = load_train_data(root, batch_size, transforms=CustomTransform(p=0.5))
 
     train(resnet18(), train_loader, num_epochs, learning_rate, model_name='resnet18')
-    train(vgg16(), train_loader, num_epochs, learning_rate, model_name='vgg16')
     train(googlenet(), train_loader, num_epochs, learning_rate, model_name='googlenet')
+    
+    num_epochs = 10
+    train(vgg16(), train_loader, num_epochs, learning_rate, model_name='vgg16')
