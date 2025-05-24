@@ -128,14 +128,6 @@ class NoTransform:
 
 
 def visualize_dataset(dataset, num_samples=5, randomize=True):
-    """
-    Displays a row of denormalized images from a dataset with gender labels.
-
-    Args:
-        dataset (FaceRecognitionDataset): Dataset instance.
-        num_samples (int): Number of images to display.
-        randomize (bool): Whether to randomly pick the samples.
-    """
     def denormalize(tensor):
         mean = torch.tensor([0.485, 0.456, 0.406]).view(3, 1, 1)
         std = torch.tensor([0.229, 0.224, 0.225]).view(3, 1, 1)
@@ -166,14 +158,6 @@ def visualize_dataset(dataset, num_samples=5, randomize=True):
 
 
 def visualize_augmented_dataset(dataset, num_samples=5, randomize=True):
-    """
-    Shows original images on the top row and augmented images on the bottom row.
-
-    Args:
-        dataset (FaceRecognitionDataset): Dataset with raw image paths.
-        num_samples (int): Number of samples to visualize.
-        randomize (bool): Whether to randomly pick the samples.
-    """
     no_aug = NoTransform()
     with_aug = CustomTransform(p=1.0)  # always apply augmentation
 
@@ -231,12 +215,14 @@ def train(model, train_loader, num_epochs, learning_rate, model_name='model', sa
     model = model.to(device)
     criterion = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+    
+    # StepLR: reduce LR every 10 epochs by factor of 0.1
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
 
     best_accuracy = 0.0
-    os.makedirs(save_dir, exist_ok=True)
     save_path = os.path.join(save_dir, f'{model_name}_best.pth')
 
-    start_time = time.time()  # start timer here
+    start_time = time.time()
 
     for epoch in range(num_epochs):
         model.train()
@@ -263,14 +249,16 @@ def train(model, train_loader, num_epochs, learning_rate, model_name='model', sa
         accuracy = correct / total * 100
         print(f"[{model_name}] Epoch {epoch + 1}/{num_epochs} — Loss: {avg_loss:.4f} — Accuracy: {accuracy:.2f}%")
 
+        # Step the scheduler after each epoch
+        scheduler.step()
+
         if accuracy > best_accuracy:
             best_accuracy = accuracy
             torch.save(model.state_dict(), save_path)
             print(f"✅ Best model saved to: {save_path} (Accuracy: {best_accuracy:.2f}%)")
 
-    end_time = time.time()  # end timer here
-    elapsed = end_time - start_time
-    print(f"Training time for {model_name}: {elapsed:.2f} seconds")
+    end_time = time.time()
+    print(f"Training time for {model_name}: {end_time - start_time:.2f} seconds")
 
 
 def evaluate(model, test_loader):
