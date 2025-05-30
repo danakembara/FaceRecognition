@@ -56,7 +56,7 @@ Performance at the best epoch:
 * Experiment with augmentation methods tailored specifically for gender classification
 * Split dataset into train, validation, and test sets for model-specic hyperparameter tuning
 * Explore alternative transfer learning techniques, such as freezing weights in different layers
-* Investigate using smaller variants of VGG (e.g., VGG11 or VGG13) to improve accuracy and reduce training time (currently using 10 epochs while other models use 30)
+* Investigate the use of smaller VGG variants (e.g., VGG11 or VGG13) to improve accuracy and reduce training time, especially since the current model only trains for 10 epochs while others are trained for 30
 
 ## 📦 Data Availability
 This project uses a subset of the CelebA dataset, which is publicly available at the [official CelebA website](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).  
