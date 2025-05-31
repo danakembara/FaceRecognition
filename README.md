@@ -6,7 +6,7 @@ For more details, please refer to the presentation file: face-recognition.pptx.
 ## 🧠 Features
 * Supports multiple CNN architectures: ResNet18, VGG16, and GoogLeNet  
 * Includes transfer learning and fine-tuning capabilities 
-* Provides model training and evaluation with accuracy and training time metrics  
+* Provides model training and evaluation with performance and efficiency metrics  
 * Offers image augmentation and visualization
 
 ## 📦 Installation
