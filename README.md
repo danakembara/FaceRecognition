@@ -1,7 +1,5 @@
 # Face Recognition
-A PyTorch-based project that train and evaluate multiple CNN architectures to classify gender (Male/Female) from facial images. 
-
-For more details, please refer to the presentation file: face-recognition.pptx.
+A PyTorch-based project that train and evaluate multiple CNN architectures to classify gender (Male/Female) from facial images. For a more detailed pipeline of training and evaluation process, please refer to the presentation file: face-recognition.pptx.
 
 ## 🧠 Features
 * Supports multiple CNN architectures: ResNet18, VGG16, and GoogLeNet  
