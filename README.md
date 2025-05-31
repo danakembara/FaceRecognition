@@ -17,7 +17,7 @@ cd face-recognition
 pip install -r requirements.txt
 ```
 
-## 📂 Dataset Structure
+## 📂 Dataset
 <pre>
   face_recognition/ 
   ├── dataset/ 
@@ -43,7 +43,7 @@ python train.py
 python evaluate.py
 ```
 
-## 📈 Results and Discussion
+## 📊 Results and Discussion
 <div align="center">
 Table 1. Models performance evaluated on the test set:
 </div>
@@ -100,7 +100,7 @@ Table 1. Models performance evaluated on the test set:
 </div>
 
 
-## 📈 Conclusion
+## ✅ Conclusion
 
 ## 🚀 Future Improvements
 * Increase dataset size (currently 1414 train and 354 test images) using additional data from the CelebA dataset
