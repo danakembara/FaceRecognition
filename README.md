@@ -48,8 +48,8 @@ Performance at the best epoch:
 | Model     | Accuracy      | Precision     | Recall        | F1-macro      | F1-weighted   | Training Time | Inference time/image |
 |-----------|---------------|---------------|---------------|---------------|---------------|---------------|----------------------|
 | ResNet18  | 98%           | 0.968         | 0.984         | 0.979         | 0.98          | 26.61 min     | 0.043 s              |
-| VGG16     |          |        |  |  |  |  |       |
-| GoogleNet |         |        |  |  | | |      |
+| GoogleNet | 97.33%        | 0.964         | 0.971         | 0.973         | 0.973         | 49.54min      | 0.048s               |
+| VGG16_fw  | 90.53%        | 0.888         | 0.88          | 0.902         | 0.905         | 82.33min      | 0.176s               |
 
 ## 📈 Conclusion
 
