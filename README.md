@@ -4,8 +4,8 @@ A PyTorch-based project that trains and evaluates multiple CNN architectures to 
 ## 🧠 Features
 * Supports multiple CNN architectures: ResNet18, VGG16, and GoogLeNet  
 * Includes transfer learning and fine-tuning capabilities 
-* Provides model training and evaluation with performance and efficiency metrics  
 * Offers image augmentation and visualization
+* Provides model training and evaluation with performance and efficiency metrics
 
 ## 📦 Installation
 ```bash
