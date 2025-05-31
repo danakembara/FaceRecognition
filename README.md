@@ -46,6 +46,7 @@ python evaluate.py
 ```
 
 ## 📊 Model performance
+The best-performance model, ResNet18, has a high accuracy and efficiency, make it ideal for real-world use.
 
 <div align="center">
 
