@@ -99,6 +99,4 @@ python evaluate.py
 </div>
 
 ## 📦 Data Availability
-This project uses a subset of the CelebA dataset, which is publicly available at the [official CelebA website](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).  
-
-You can also download the specific subset used in this project here: [Google Drive link](https://drive.google.com/drive/folders/1Y-kRoMckL1pvxT2zFC_VC2yaD_v7Ph3k)
+This project uses a subset of the CelebA dataset, which is publicly available at the [official CelebA website](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). Specific subset dataset that used in this project can be downloaded here: [Google Drive link](https://drive.google.com/drive/folders/1BMcCUkpRA99ULUMWYUOboL19Yph2k3Vs)
