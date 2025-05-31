@@ -43,13 +43,15 @@ python train.py
 python evaluate.py
 ```
 
-## 📈 Results
+## 📈 Results and Discussion
 Performance at the best epoch:
 | Model     | Accuracy      | Precision     | Recall        | F1-macro      | F1-weighted   | Training Time | Inference time/image |
 |-----------|---------------|---------------|---------------|---------------|---------------|---------------|----------------------|
 | ResNet18  | 98%           | 0.968         | 0.984         | 0.979         | 0.98          | 26.61 min     | 0.043 s              |
 | VGG16     |          |        |  |  |  |  |       |
 | GoogleNet |         |        |  |  | | |      |
+
+## 📈 Conclusion
 
 ## 🚀 Future Improvements
 * Increase dataset size (currently 1414 train and 354 test images) using additional data from the CelebA dataset
