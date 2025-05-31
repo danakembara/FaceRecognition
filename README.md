@@ -45,11 +45,56 @@ python evaluate.py
 
 ## 📈 Results and Discussion
 Performance at the best epoch:
-| Model     | Accuracy      | Precision     | Recall        | F1-macro      | F1-weighted   | Training Time | Inference time/image |
-|-----------|---------------|---------------|---------------|---------------|---------------|---------------|----------------------|
-| ResNet18  | 98%           | 0.968         | 0.984         | 0.979         | 0.98          | 26.61 min     | 0.043 s              |
-| GoogleNet | 97.33%        | 0.964         | 0.971         | 0.973         | 0.973         | 49.54min      | 0.048s               |
-| VGG16_fw  | 90.53%        | 0.888         | 0.88          | 0.902         | 0.905         | 82.33min      | 0.176s               |
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Accuracy</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1-macro</th>
+      <th>F1-weighted</th>
+      <th>Training Time</th>
+      <th>Inference time/image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ResNet18</td>
+      <td>98%</td>
+      <td>0.968</td>
+      <td>0.984</td>
+      <td>0.979</td>
+      <td>0.98</td>
+      <td>26.61 min</td>
+      <td>0.043 s</td>
+    </tr>
+    <tr>
+      <td>GoogleNet</td>
+      <td>97.33%</td>
+      <td>0.964</td>
+      <td>0.971</td>
+      <td>0.973</td>
+      <td>0.973</td>
+      <td>49.54 min</td>
+      <td>0.048 s</td>
+    </tr>
+    <tr>
+      <td>VGG16_fw</td>
+      <td>90.53%</td>
+      <td>0.888</td>
+      <td>0.88</td>
+      <td>0.902</td>
+      <td>0.905</td>
+      <td>82.33 min</td>
+      <td>0.176 s</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ## 📈 Conclusion
 
