@@ -44,7 +44,8 @@ python evaluate.py
 ```
 
 ## 📈 Results and Discussion
-Performance at the best epoch:
+<div align="center">
+Performance evaluated on the test set:
 <div align="center">
 
 <table>
