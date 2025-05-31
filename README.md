@@ -3,7 +3,7 @@ A PyTorch-based project that trains multiple CNN architectures to classify gende
 
 ## 🧠 Features
 * Supports multiple CNN architectures: ResNet18, VGG16, and GoogLeNet  
-* Includes transfer learning and fine-tuning capabilities  
+* Includes transfer learning and fine-tuning capabilities 
 * Provides model training and evaluation with accuracy and training time metrics  
 * Offers image augmentation and visualization
 
@@ -43,10 +43,7 @@ python train.py
 python evaluate.py
 ```
 
-## 📊 Results and Discussion
-<div align="center">
-Table 1. Models performance evaluated on the test set:
-</div>
+## 📊 Model performance
 
 <div align="center">
 
@@ -98,16 +95,6 @@ Table 1. Models performance evaluated on the test set:
 </table>
 
 </div>
-
-
-## ✅ Conclusion
-
-## 🚀 Future Improvements
-* Increase dataset size (currently 1414 train and 354 test images) using additional data from the CelebA dataset
-* Experiment with augmentation methods tailored specifically for gender classification
-* Split dataset into train, validation, and test sets for model-specic hyperparameter tuning
-* Explore alternative transfer learning techniques, such as freezing weights in different layers
-* Investigate the use of smaller VGG variants (e.g., VGG11 or VGG13) to improve accuracy and reduce training time, especially since the current model only trains for 10 epochs while others are trained for 30
 
 ## 📦 Data Availability
 This project uses a subset of the CelebA dataset, which is publicly available at the [official CelebA website](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).  
