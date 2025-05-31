@@ -45,7 +45,8 @@ python evaluate.py
 
 ## 📈 Results and Discussion
 <div align="center">
-Performance evaluated on the test set:
+Table 1. Models performance evaluated on the test set:
+</div>
 <div align="center">
 
 <table>
