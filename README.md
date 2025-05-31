@@ -47,56 +47,58 @@ python evaluate.py
 <div align="center">
 Table 1. Models performance evaluated on the test set:
 </div>
+
 <div align="center">
 
 <table>
   <thead>
     <tr>
-      <th>Model</th>
-      <th>Accuracy</th>
-      <th>Precision</th>
-      <th>Recall</th>
-      <th>F1-macro</th>
-      <th>F1-weighted</th>
-      <th>Training Time</th>
-      <th>Inference time/image</th>
+      <th style="text-align: center;">Model</th>
+      <th style="text-align: center;">Accuracy</th>
+      <th style="text-align: center;">Precision</th>
+      <th style="text-align: center;">Recall</th>
+      <th style="text-align: center;">F1-macro</th>
+      <th style="text-align: center;">F1-weighted</th>
+      <th style="text-align: center;">Training Time</th>
+      <th style="text-align: center;">Inference time/image</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>ResNet18</td>
-      <td>98%</td>
-      <td>0.968</td>
-      <td>0.984</td>
-      <td>0.979</td>
-      <td>0.98</td>
-      <td>26.61 min</td>
-      <td>0.043 s</td>
+      <td style="text-align: center;"><b>ResNet18</b></td>
+      <td style="text-align: center;"><b>98%</b></td>
+      <td style="text-align: center;"><b>0.968</b></td>
+      <td style="text-align: center;"><b>0.984</b></td>
+      <td style="text-align: center;"><b>0.979</b></td>
+      <td style="text-align: center;"><b>0.98</b></td>
+      <td style="text-align: center;"><b>26.61 min</b></td>
+      <td style="text-align: center;"><b>0.043 s</b></td>
     </tr>
     <tr>
-      <td>GoogleNet</td>
-      <td>97.33%</td>
-      <td>0.964</td>
-      <td>0.971</td>
-      <td>0.973</td>
-      <td>0.973</td>
-      <td>49.54 min</td>
-      <td>0.048 s</td>
+      <td style="text-align: center;">GoogleNet</td>
+      <td style="text-align: center;">97.33%</td>
+      <td style="text-align: center;">0.964</td>
+      <td style="text-align: center;">0.971</td>
+      <td style="text-align: center;">0.973</td>
+      <td style="text-align: center;">0.973</td>
+      <td style="text-align: center;">49.54 min</td>
+      <td style="text-align: center;">0.048 s</td>
     </tr>
     <tr>
-      <td>VGG16_fw</td>
-      <td>90.53%</td>
-      <td>0.888</td>
-      <td>0.88</td>
-      <td>0.902</td>
-      <td>0.905</td>
-      <td>82.33 min</td>
-      <td>0.176 s</td>
+      <td style="text-align: center;">VGG16_fw</td>
+      <td style="text-align: center;">90.53%</td>
+      <td style="text-align: center;">0.888</td>
+      <td style="text-align: center;">0.88</td>
+      <td style="text-align: center;">0.902</td>
+      <td style="text-align: center;">0.905</td>
+      <td style="text-align: center;">82.33 min</td>
+      <td style="text-align: center;">0.176 s</td>
     </tr>
   </tbody>
 </table>
 
 </div>
+
 
 ## 📈 Conclusion
 
