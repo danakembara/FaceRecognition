@@ -13,9 +13,9 @@ if __name__ == "__main__":
     # Test
     test_loader = load_test_data(root, batch_size, transforms=NoTransform())
 
-    # model_resnet = resnet18()
-    # model_resnet.load_state_dict(torch.load(os.path.join(weights_path, 'resnet18_last.pth')))
-    # evaluate(model_resnet, test_loader)
+    model_resnet = resnet18()
+    model_resnet.load_state_dict(torch.load(os.path.join(weights_path, 'resnet18_last.pth')))
+    evaluate(model_resnet, test_loader)
 
     model_vgg = vgg16()
     model_vgg.load_state_dict(torch.load(os.path.join(weights_path, 'vgg16_last.pth')))
