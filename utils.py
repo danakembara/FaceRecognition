@@ -164,6 +164,7 @@ def visualize_dataset(dataset, num_samples=5, randomize=True):
     plt.tight_layout()
     plt.show()
 
+
 def visualize_augmented_dataset(dataset, num_samples=5, randomize=True):
     no_aug = NoTransform()
     with_aug = CustomTransform(p=1.0)  # always apply augmentation because we want to see the visualization
@@ -202,6 +203,7 @@ def visualize_augmented_dataset(dataset, num_samples=5, randomize=True):
     plt.title("Top: Original images  |  Bottom: Augmented images")
     plt.show()
 
+
 def count_parameters(model, model_name="Model"):
     total_params = sum(p.numel() for p in model.parameters())
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
@@ -216,11 +218,13 @@ def load_train_data(root, batch_size, transforms):
                             shuffle=True, num_workers=1)
     return dataloader
 
+
 def load_val_data(root, batch_size, transforms):
     dataset = FaceRecognitionDataset(root=root, split='val', transforms=transforms)
     dataloader = DataLoader(dataset, batch_size=batch_size,
                             shuffle=False, num_workers=1)
     return dataloader
+
 
 def load_test_data(root, batch_size, transforms):
     dataset = FaceRecognitionDataset(root=root, split='test', transforms=transforms)
