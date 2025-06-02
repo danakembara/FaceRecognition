@@ -13,7 +13,7 @@ from utils import (
 )
 
 
-root = 'face_recognition/...'
+root = '.../face_recognition/'
 
 if __name__ == "__main__":
 
