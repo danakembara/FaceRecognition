@@ -13,7 +13,7 @@ from utils import (
 )
 
 
-root = 'C:/Users/kemba/OneDrive/Desktop/Bootcamp/project/face_recognition/'
+root = 'face_recognition/...'
 
 if __name__ == "__main__":
 
