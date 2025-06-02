@@ -5,7 +5,7 @@ from utils import NoTransform, load_test_data, evaluate
 
 
 if __name__ == "__main__":
-    root = 'C:/Users/kemba/OneDrive/Desktop/Bootcamp/project/face_recognition/'
+    root = '.../face_recognition/'
     weights_path = root + 'weights'
 
     batch_size = 32
